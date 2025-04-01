@@ -10,6 +10,7 @@ import PricingSection from './components/pricingSection'
 import ServiesSection from './components/ServiesSection'
 import TestmonialSection from './components/Testmonial.section'
 import SubscribeNewsletter from './components/Subscribe newsletter'
+import Footer from './components/Footer'
 function App() {
   return (
     <main className='relative min-h-screen overflow-x-hidden' >
@@ -18,14 +19,21 @@ function App() {
       <Navbar />
       <Hero />
       <Companylogo />
-      <PurposeSection />
+      <div id="about">
+        <PurposeSection />
+      </div>
       <FeaturesSection />
       <SecheduleSection />
       <MonitorSection />
       <PricingSection />
-      <ServiesSection />
+      <div id="services">
+        <ServiesSection />
+      </div>
       <TestmonialSection />
-      <SubscribeNewsletter />
+      <div id="contact">
+        <SubscribeNewsletter />
+      </div>
+      <Footer />
       </div>
     </main>
   )
