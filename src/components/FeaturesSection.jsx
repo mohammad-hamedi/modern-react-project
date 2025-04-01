@@ -31,19 +31,19 @@ export default function FeaturesSection() {
                 </div>
 
                 {/* Features */}
-                <div className="flex grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {features.map((feature, index) => (
-                        <div key={index} className="flex flex-col items-center text-center p-6">
-                            <div className="w-24 h-24 rounded-full flex items-center justify-center mb-6" 
+                        <div key={index} className="flex flex-col items-center text-center p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
+                            <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-full flex items-center justify-center mb-4 sm:mb-6" 
                                 style={{backgroundColor: index === 0 ? "#f1eff0" : index === 1 ? "#fee7e7" : "#fff3f3"}}>
-                                <div className="text-3xl">
+                                <div className="text-2xl sm:text-3xl">
                                     {feature.icon}
                                 </div>
                             </div>
-                            <h3 className="text-xl font-bold text-gray-900 mb-3">
+                            <h3 className="text-lg sm:text-xl font-bold text-gray-900 mb-2 sm:mb-3">
                                 {feature.title}
                             </h3>
-                            <p className="text-gray-600">
+                            <p className="text-sm sm:text-base text-gray-600">
                                 {feature.description}
                             </p>
                         </div>

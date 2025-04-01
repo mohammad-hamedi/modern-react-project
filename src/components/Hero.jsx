@@ -45,7 +45,7 @@ export default function Hero() {
                             <img 
                                 src={heroImage} 
                                 alt="Hero Image" 
-                                className="w-full h-auto rounded-lg relative z-10 hover:scale-105 transition-transform duration-300 shadow-xl" 
+                                className="w-full h-auto rounded-lg relative z-10 hover:scale-105 transition-transform duration-300 " 
                             />
                         </div>
                     </div>
