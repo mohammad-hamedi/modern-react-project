@@ -4,6 +4,12 @@ import Hero from './components/Hero'
 import Companylogo from './components/Companylogo'
 import PurposeSection from './components/Purposesection'
 import FeaturesSection from './components/FeaturesSection'
+import SecheduleSection from './components/SecheduleSection'
+import MonitorSection from './components/MonitorSection'
+import PricingSection from './components/pricingSection'
+import ServiesSection from './components/ServiesSection'
+import TestmonialSection from './components/Testmonial.section'
+import SubscribeNewsletter from './components/Subscribe newsletter'
 function App() {
   return (
     <main className='relative min-h-screen overflow-x-hidden' >
@@ -14,6 +20,12 @@ function App() {
       <Companylogo />
       <PurposeSection />
       <FeaturesSection />
+      <SecheduleSection />
+      <MonitorSection />
+      <PricingSection />
+      <ServiesSection />
+      <TestmonialSection />
+      <SubscribeNewsletter />
       </div>
     </main>
   )
